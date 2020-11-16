@@ -1,6 +1,10 @@
 # Appwrite + VueJS =❤️
 This example is to showcase [Appwrite's JS API](https://github.com/appwrite/sdk-for-js) with [VueJS](https://vuejs.org/) by creating a simple tasks web application where you can add, remove and mark tasks as done.
 
+<p align="center">
+  <img src="https://github.com/PineappleIOnic/demos-for-vue-1/blob/master/example-database/tutorial-resources/images/result-1.png">
+</p>
+
 ## Prerequisites
 
 -   A recent version of [NodeJS](https://nodejs.org/)
@@ -56,7 +60,7 @@ appwrite
   .setEndpoint('http://EndpointURL.example/') // Replace this with your endpoint
   .setProject('ProjectID') // Replace this with your projectID
  
-let promise = sdk.account.createSession('emailaddress', 'password'); // Replace with a appwrite account you created
+let promise = appwrite.account.createSession('emailaddress', 'password'); // Replace with a appwrite account you created
 
 promise.then(function (response) {
       console.log(`Successfully logged in as: ${response.name}`); // Success
@@ -231,6 +235,7 @@ You can either opt to style this yourself or use the style I created myself and 
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
+    border: none;
   }
 
   .newTaskForm button {
