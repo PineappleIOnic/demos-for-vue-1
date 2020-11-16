@@ -1,4 +1,5 @@
 <h1 align="center">Appwrite + VueJS = ❤️</h1>
+
 This example is to showcase [Appwrite's JS API](https://github.com/appwrite/sdk-for-js) with [VueJS](https://vuejs.org/) by creating a file uploading application where you can upload files and see recently uploaded files.
 
 <p align="center">
