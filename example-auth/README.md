@@ -1,3 +1,5 @@
+<h1 align="center">Appwrite + VueJS = ❤️</h1>
+
 # This will be a tutorial for creating a basic login page for Appwrite with Vue.
 ## But it currently isn't finished yet 😔 but the project is! Go ahead and check out the code and make sure to checkback for when the tutorial is finished!
 

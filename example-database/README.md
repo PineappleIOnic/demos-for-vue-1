@@ -1,4 +1,4 @@
-# Appwrite + VueJS =❤️
+<h1 align="center">Appwrite + VueJS = ❤️</h1>
 This example is to showcase [Appwrite's JS API](https://github.com/appwrite/sdk-for-js) with [VueJS](https://vuejs.org/) by creating a simple tasks web application where you can add, remove and mark tasks as done.
 
 <p align="center">
