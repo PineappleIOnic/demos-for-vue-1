@@ -3,6 +3,10 @@
 # Appwrite + VueJS =❤️
 This example is to showcase [Appwrite's JS API](https://github.com/appwrite/sdk-for-js) with [VueJS](https://vuejs.org/) by creating a file uploading application where you can upload files and see recently uploaded files.
 
+<p align="center">
+  <img src="https://github.com/PineappleIOnic/demos-for-vue-1/blob/master/example-fileupload/result-1.png">
+</p>
+
 ## Prerequisites
 
 -   A recent version of [NodeJS](https://nodejs.org/)
@@ -56,10 +60,10 @@ Next, we are going to create a JS File with the Appwrite Initialisation code so 
 import * as Appwrite from  'appwrite'
 const appwrite =  new Appwrite()
 appwrite
-  .setEndpoint('http://EndpointURL.example/') // Replace this with your endpoint
+  .setEndpoint('http://EndpointURL.example/v1') // Replace this with your endpoint
   .setProject('ProjectID') // Replace this with your projectID
  
-let promise = sdk.account.createSession('emailaddress', 'password'); // Replace with a appwrite account you created
+let promise = appwrite.account.createSession('emailaddress', 'password'); // Replace with a appwrite account you created
 
 promise.then(function (response) {
       console.log(`Successfully logged in as: ${response.name}`); // Success

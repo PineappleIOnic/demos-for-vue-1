@@ -5,7 +5,7 @@ appwrite
   .setEndpoint('ENDPOINTURL') // Replace with your own endpoint
   .setProject('PROJECTURL') // Replace with your own ProjectID
 
-  let promise = sdk.account.createSession('emailaddress', 'password');
+  let promise = appwrite.account.createSession('emailaddress', 'password');
 
   promise.then(function (response) {
       console.log(`Successfully logged in as: ${response.name}`); // Success
